@@ -1,0 +1,32 @@
+{
+  "bundle":"bootstrap",
+  "dependencies" : ["jquery"],
+  "assets":[
+  {
+      "name" : "bootstrap3",
+      "version" : "3.3.7",
+      "locations":{
+        "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      }
+  },
+  {
+      "name" : "bootstrap3",
+      "version" : "3.3.7",
+      "locations":{
+        "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      }
+  },
+  {
+      "version" : "1.0",
+      "locations":{
+        "jar": "assets/js/ie10-viewport-bug-workaround.js"
+      }
+  },
+  {
+      "version" : "1.0",
+      "locations":{
+        "jar": "assets/css/ie10-viewport-bug-workaround.css"
+      }
+  }
+  ]
+}

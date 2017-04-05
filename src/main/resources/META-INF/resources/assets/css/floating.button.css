@@ -1,0 +1,102 @@
+/**********************
+
+  Uso:
+
+  <a href="#" class="float-button">
+    <i class="fa fa-share"></i>
+  </a>
+  <ul class="menu-float">
+    <li class="item-float"><a href="#"><i class="fa fa-facebook"></i></a></li>
+    <li class="item-float"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+    <li class="item-float"><a href="#"><i class="fa fa-twitter"></i></a></li>
+  </ul>
+
+ ***********************/
+ 
+.float-button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #337ab7;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 1000;
+  animation: bot-to-top 2s ease-out;
+}
+
+a.float-button+ul {
+  visibility: hidden;
+}
+
+a.float-button:hover+ul {
+  visibility: visible;
+  animation: scale-in 0.5s;
+}
+
+a.float-button i {
+  animation: rotate-in 0.5s;
+  font-size: 24px;
+  margin-top: 18px;
+}
+
+a.float-button:hover>i {
+  animation: rotate-out 0.5s;
+}
+
+ul.menu-float {
+  position: fixed;
+  right: 20px;
+  padding-bottom: 20px;
+  bottom: 50px;
+  z-index: 100;
+}
+
+ul.menu-float:hover {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+li.item-float {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+li.item-float a {
+  background-color: #337ab7;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+  width: 60px;
+  height: 60px;
+  display: block;
+}
+
+li.item-float a i {
+  margin-top: 18px;
+  font-size: 24px;
+}
+
+@keyframes bot-to-top {
+  0% { bottom: -40px }
+  50% { bottom: 40px }
+}
+
+@keyframes scale-in {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes rotate-in {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rotate-out {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}

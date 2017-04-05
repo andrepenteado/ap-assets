@@ -1,0 +1,54 @@
+{
+  "bundle":"datatables.simple",
+  "dependencies" : ["bootstrap3"],
+  "assets": [
+   {
+       "name": "datatables",
+       "version" : "1.10.13",
+       "locations":{
+         "remote":"https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"
+       }
+   },
+   {
+       "name": "datatables",
+       "version" : "1.10.13",
+       "locations":{
+         "remote":"https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"
+       }
+   },
+   {
+       "name":"bootstrap3-theme-js",
+       "version" : "1.10.13",
+       "locations":{
+         "remote":"https://cdn.datatables.net/1.10.13/js/dataTables.bootstrap.min.js"
+       }
+   },
+   {
+       "name":"bootstrap3-theme-css",
+       "version" : "1.10.13",
+       "locations":{
+         "remote":"https://cdn.datatables.net/1.10.13/css/dataTables.bootstrap.min.css"
+       }
+   },
+   {
+       "name": "datatables-responsive-bs3",
+       "version" : "2.1.1",
+       "locations":{
+         "remote":"https://cdn.datatables.net/responsive/2.1.1/js/dataTables.responsive.min.js"
+       }
+   },
+   {
+       "name": "datatables-responsive-bs3",
+       "version" : "2.1.1",
+       "locations":{
+         "remote":"https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css"
+       }
+   },
+   {
+       "version" : "1.0",
+       "locations":{
+         "jar" : "assets/css/datatables-unesp.css" 
+       }
+   }
+   ]
+}

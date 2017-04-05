@@ -1,0 +1,8 @@
+{
+   "assets": [{
+      "version" : "1.2",
+      "locations": {
+         "jar": "assets/css/floating.button.css"
+      }
+   }]
+}

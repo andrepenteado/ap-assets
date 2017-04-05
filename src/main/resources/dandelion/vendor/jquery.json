@@ -1,0 +1,13 @@
+{
+  "bundle":"jquery",
+  "assets":[
+    {
+      "name" : "jquery",
+      "dom":"head",
+      "version" : "2.2.4",
+      "locations":{
+        "remote":"https://code.jquery.com/jquery-2.2.4.min.js" 
+      }
+    }
+  ]
+}

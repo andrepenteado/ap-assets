@@ -1,0 +1,37 @@
+{
+  "bundle": "jquery.validation",
+  "dependencies": [ "jquery" ],
+  "assets": [
+    {
+      "version" : "1.15.0",
+      "dom":"head",
+      "locations": {
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js"
+      }
+    },
+    {
+      "version" : "1.15.0",
+      "dom":"head",
+      "type" : "js",
+      "locations": {
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/additional-methods.min.js"
+      }
+    },
+    {
+      "version" : "1.0",
+      "dom":"head",
+      "type" : "js",
+      "locations": {
+        "jar": "assets/js/jquery.validate.ptBR.js"
+      }
+    },
+    {
+      "version" : "1.0",
+      "dom":"head",
+      "type" : "js",
+      "locations": {
+        "jar": "assets/js/jquery.validate.util.js"
+      }
+    }
+  ]
+}
