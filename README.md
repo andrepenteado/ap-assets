@@ -32,7 +32,7 @@ Caso use um proxy como o *nexus* para as dependências do maven, faça um *bypas
     <!--This sends everything else to /public -->
     <id>nexus</id>
     <mirrorOf>*,!jitpack.io</mirrorOf>
-    <url>https://alpha.fc.unesp.br/nexus/content/groups/public</url>
+    <url>https:/servidor-nexus/nexus/content/groups/public</url>
   </mirror>
 </mirrors>
 
