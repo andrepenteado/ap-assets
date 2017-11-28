@@ -1,0 +1,23 @@
+{
+  "bundle":"select2",
+  "assets":[
+    {
+      "version" : "4.0.4",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/js/select2.min.js"
+      }
+    },
+    {
+      "version" : "4.0.4",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.4/css/select2.min.css"
+      }
+    },
+    {
+      "version" : "4.0.4",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css"
+      }
+    }
+  ]
+}

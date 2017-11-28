@@ -1,0 +1,17 @@
+{
+  "bundle":"sweetalert2",
+  "assets":[
+    {
+      "version" : "6.9.1",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.9.1/sweetalert2.min.js"
+      }
+    },
+    {
+      "version" : "6.9.1",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.9.1/sweetalert2.min.css"
+      }
+    }
+  ]
+}

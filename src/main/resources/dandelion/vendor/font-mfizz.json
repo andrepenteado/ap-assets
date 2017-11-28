@@ -1,0 +1,11 @@
+{
+  "bundle":"font-mfizz",
+  "assets":[
+    {
+      "version" : "2.4.1",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/font-mfizz/2.4.1/font-mfizz.min.css"
+      }
+    }
+  ]
+}
