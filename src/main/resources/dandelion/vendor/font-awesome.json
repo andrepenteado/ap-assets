@@ -2,9 +2,9 @@
   "bundle":"font-awesome",
   "assets":[
     {
-      "version" : "4.7.0",
+      "version" : "5.0.6",
       "locations":{
-        "remote": "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        "remote": "https://use.fontawesome.com/releases/v5.0.6/js/all.js"
       }
     }
   ]
