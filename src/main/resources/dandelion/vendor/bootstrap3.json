@@ -1,5 +1,5 @@
 {
-  "bundle":"bootstrap",
+  "bundle":"bootstrap3",
   "dependencies" : ["jquery"],
   "assets":[
   {

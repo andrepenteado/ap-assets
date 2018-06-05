@@ -1,5 +1,5 @@
 {
-  "bundle": "jquery.datetimepicker",
+  "bundle": "bootstrap3.datetimepicker",
   "dependencies": [ "bootstrap3" ],
   "assets": [
     {
@@ -11,13 +11,13 @@
     {
       "version" : "4.17.37",
       "locations": {
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"
       }
     },
     {
       "version" : "4.17.37",
       "locations": {
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css"
       }
     }
   ]

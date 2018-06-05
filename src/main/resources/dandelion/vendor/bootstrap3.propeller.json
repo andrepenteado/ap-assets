@@ -1,0 +1,18 @@
+{
+  "bundle": "bootstrap3.propeller",
+  "dependencies": [ "bootstrap3" ],
+  "assets": [
+    {
+      "version" : "1.3.0",
+      "locations": {
+        "remote": "https://cdn.jsdelivr.net/npm/propellerkit@1.3.0/dist/js/propeller.min.js"
+      }
+    },
+    {
+      "version" : "1.3.0",
+      "locations": {
+        "remote": "https://cdn.jsdelivr.net/npm/propellerkit@1.3.0/dist/css/propeller.min.css"
+      }
+    }
+  ]
+}

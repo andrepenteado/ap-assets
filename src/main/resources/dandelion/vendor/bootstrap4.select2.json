@@ -1,0 +1,29 @@
+{
+  "bundle":"bootstrap4.select2",
+  "assets":[
+    {
+      "version" : "4.0.5",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/select2.min.js"
+      }
+    },
+    {
+      "version" : "4.0.5",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/css/select2.min.css"
+      }
+    },
+    {
+      "version" : "4.0.5",
+      "locations":{
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.5/js/i18n/pt-BR.js"
+      }
+    },
+    {
+      "version" : "1.0.0",
+      "locations":{
+        "jar": "assets/css/select2-bootstrap4.min.css"
+      }
+    }
+  ]
+}

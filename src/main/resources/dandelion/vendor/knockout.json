@@ -2,9 +2,9 @@
   "bundle":"knockout",
   "assets":[
     {
-      "version" : "3.4.1",
+      "version" : "3.4.2",
       "locations":{
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.1/knockout-min.js"
+        "remote": "https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js"
       }
     }
   ]

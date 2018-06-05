@@ -4,20 +4,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Garante a renderização adequada para mobile e desabilita o zoom, ou seja, o usuário só é capaz de rolar a tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <%@include file="../head.jsp"%>
-    <dandelion:bundle includes="bootstrap"/>
+    <dandelion:bundle includes="bootstrap3"/>
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
     <sitemesh:write property='head' />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Itim', cursive;
-        font-size: 16px;
-      }
-    </style>
-
     <!-- Static navbar -->
     <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">

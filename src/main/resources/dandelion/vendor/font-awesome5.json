@@ -1,0 +1,11 @@
+{
+  "bundle":"font-awesome5",
+  "assets":[
+    {
+      "version" : "5.0.13",
+      "locations":{
+        "remote": "https://use.fontawesome.com/releases/v5.0.13/js/all.js"
+      }
+    }
+  ]
+}

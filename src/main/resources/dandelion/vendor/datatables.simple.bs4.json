@@ -1,6 +1,6 @@
 {
-  "bundle":"datatables.simple",
-  "dependencies" : ["bootstrap3"],
+  "bundle":"datatables.simple.bs4",
+  "dependencies" : ["bootstrap4"],
   "assets": [
    {
        "name": "datatables",
@@ -17,31 +17,31 @@
        }
    },
    {
-       "name":"bootstrap3-theme-js",
+       "name":"bootstrap4-theme-js",
        "version" : "1.10.16",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"
+         "remote":"https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap4.min.js"
        }
    },
    {
-       "name":"bootstrap3-theme-css",
+       "name":"bootstrap4-theme-css",
        "version" : "1.10.16",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css"
+         "remote":"https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap4.min.css"
        }
    },
    {
-       "name": "datatables-responsive-bs3",
+       "name": "datatables-responsive-bs4",
        "version" : "2.2.1",
        "locations":{
          "remote":"https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"
        }
    },
    {
-       "name": "datatables-responsive-bs3",
+       "name": "datatables-responsive-bs4",
        "version" : "2.2.1",
        "locations":{
-         "remote":"https://cdn.datatables.net/responsive/2.2.1/css/responsive.bootstrap.min.css"
+         "remote":"https://cdn.datatables.net/responsive/2.2.1/css/responsive.bootstrap4.min.css"
        }
    }
    ]
