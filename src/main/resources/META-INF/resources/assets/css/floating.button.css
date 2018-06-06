@@ -1,18 +1,31 @@
-/**********************
+/******************************************
+ Exemplo de uso:
 
-  Uso:
+ 1a opção: Único botão
 
-  <a href="#" class="float-button">
-    <i class="fa fa-share"></i>
-  </a>
-  <ul class="menu-float">
-    <li class="item-float"><a href="#"><i class="fa fa-facebook"></i></a></li>
-    <li class="item-float"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-    <li class="item-float"><a href="#"><i class="fa fa-twitter"></i></a></li>
-  </ul>
+ <a href="#" class="float-button">
+   <i class="fas fa-share fa-lg"></i>X
+ </a>
 
- ***********************/
- 
+ 2o opção: Abre menu com vários botoões
+
+ <a href="#" class="float-button">
+   <i class="fas fa-share fa-lg"></i>X
+ </a>
+ <ul class="float-menu">
+   <li>
+     <a href="#"><span class="fas fa-calendar fa-lg"></span></a>
+   </li>
+   <li>
+     <a href="#"><span class="fas fa-plus fa-lg"></span></a>
+   </li>
+   <li>
+     <a href="#"><span class="fas fa-minus fa-lg"></span></a>
+   </li>
+ </ul>
+
+********************************************/
+
 .float-button {
   position: fixed;
   width: 60px;
@@ -23,31 +36,30 @@
   color: #FFF;
   border-radius: 50px;
   text-align: center;
+  line-height: 60px;
   box-shadow: 2px 2px 3px #999;
   z-index: 1000;
   animation: bot-to-top 2s ease-out;
 }
 
-a.float-button+ul {
+.float-button + ul {
   visibility: hidden;
 }
 
-a.float-button:hover+ul {
+.float-button:hover + ul {
   visibility: visible;
   animation: scale-in 0.5s;
 }
 
-a.float-button i {
+.float-button span {
   animation: rotate-in 0.5s;
-  font-size: 24px;
-  margin-top: 18px;
 }
 
-a.float-button:hover>i {
+.float-button:hover > span {
   animation: rotate-out 0.5s;
 }
 
-ul.menu-float {
+.float-menu {
   position: fixed;
   right: 20px;
   padding-bottom: 20px;
@@ -55,48 +67,62 @@ ul.menu-float {
   z-index: 100;
 }
 
-ul.menu-float:hover {
+.float-menu:hover {
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-li.item-float {
+.float-menu li {
   list-style: none;
   margin-bottom: 10px;
 }
 
-li.item-float a {
+.float-menu li a {
   background-color: #337ab7;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
+  line-height: 60px;
   box-shadow: 2px 2px 3px #999;
   width: 60px;
   height: 60px;
   display: block;
 }
 
-li.item-float a i {
-  margin-top: 18px;
-  font-size: 24px;
-}
-
 @keyframes bot-to-top {
-  0% { bottom: -40px }
-  50% { bottom: 40px }
+  0% {
+    bottom: -40px
+  }
+  50% {
+    bottom: 40px
+  }
 }
 
 @keyframes scale-in {
-  from { transform: scale(0); opacity: 0; }
-  to { transform: scale(1); opacity: 1; }
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
 @keyframes rotate-in {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 @keyframes rotate-out {
-  from { transform: rotate(360deg); }
-  to { transform: rotate(0deg); }
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }
