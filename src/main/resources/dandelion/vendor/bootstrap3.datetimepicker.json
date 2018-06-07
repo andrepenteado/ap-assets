@@ -1,6 +1,6 @@
 {
   "bundle": "bootstrap3.datetimepicker",
-  "dependencies": [ "bootstrap3" ],
+  "dependencies": [ "bootstrap" ],
   "assets": [
     {
       "version" : "2.13.0",

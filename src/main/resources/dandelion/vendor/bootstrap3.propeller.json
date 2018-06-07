@@ -1,6 +1,6 @@
 {
   "bundle": "bootstrap3.propeller",
-  "dependencies": [ "bootstrap3" ],
+  "dependencies": [ "bootstrap" ],
   "assets": [
     {
       "version" : "1.3.0",

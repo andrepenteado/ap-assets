@@ -1,19 +1,25 @@
 {
-  "bundle":"bootstrap3",
+  "bundle":"bootstrap",
   "dependencies" : ["jquery"],
   "assets":[
   {
-      "name" : "bootstrap3",
+      "name" : "bootstrap",
       "version" : "3.3.7",
       "locations":{
         "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
       }
   },
   {
-      "name" : "bootstrap3",
+      "name" : "bootstrap",
       "version" : "3.3.7",
       "locations":{
         "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      }
+  },
+  {
+      "version" : "1.0",
+      "locations":{
+        "jar": "assets/css/circle.button.css"
       }
   },
   {

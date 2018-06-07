@@ -7,7 +7,7 @@
     <!-- Garante a renderização adequada para mobile e desabilita o zoom, ou seja, o usuário só é capaz de rolar a tela -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     <%@include file="../head.jsp"%>
-    <dandelion:bundle includes="bootstrap3"/>
+    <dandelion:bundle includes="bootstrap"/>
     <link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet">
     <sitemesh:write property='head' />
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
