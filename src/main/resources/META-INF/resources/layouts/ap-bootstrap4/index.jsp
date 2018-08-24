@@ -11,14 +11,6 @@
   </head>
 
   <body>
-    <link href="https://fonts.googleapis.com/css?family=Itim" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Itim', cursive;
-        font-size: 16px;
-      }
-    </style>
-
     <!-- Static navbar -->
     <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
       <a class="navbar-brand" href="<%=request.getContextPath()%>/"><strong><%=application.getServletContextName()%></strong></a>
@@ -37,7 +29,7 @@
 
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb" style="margin-top: -23px">
-        <li class="breadcrumb-item"><a href="<%=request.getContextPath()%>/">Página inicial</a></li>
+        <li class="breadcrumb-item"><a href="<%=request.getContextPath()%>/"><%=application.getServletContextName()%></a></li>
         <sitemesh:write property="meta.previouspage" />
         <li class="breadcrumb-item active" aria-current="page"><sitemesh:write property="meta.header" /></li>
       </ol>

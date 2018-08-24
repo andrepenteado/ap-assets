@@ -1,6 +1,6 @@
 {
   "bundle":"datatables.simple",
-  "dependencies" : ["bootstrap3"],
+  "dependencies" : ["bootstrap"],
   "assets": [
    {
        "name": "datatables",
