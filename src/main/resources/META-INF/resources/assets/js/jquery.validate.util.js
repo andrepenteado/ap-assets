@@ -1,3 +1,5 @@
+/*
+Versão com bootstrap 3
 $.validator.setDefaults({
     errorElement: "span",
     errorClass: "help-block",
@@ -14,6 +16,29 @@ $.validator.setDefaults({
             error.insertAfter(element);
         }
     }
+});
+*/
+/* Versão com bootstrap 4 */
+$.validator.setDefaults({
+    highlight: function(element) {
+        $(element).closest('form').addClass('was-validated');
+    },
+    unhighlight: function(element) {
+        $(element).closest('form').removeClass('was-validated');
+    },
+    errorElement: 'small',
+    errorClass: 'invalid-feedback',
+    errorPlacement: function(error, element) {
+        if(element.parent('.input-group').length) {
+            error.insertAfter(element.parent());
+        } else if(element.prop('type') === 'checkbox') {
+            error.appendTo(element.parent().parent().parent());
+        } else if(element.prop('type') === 'radio') {
+            error.appendTo(element.parent().parent().parent());
+        } else {
+            error.insertAfter(element);
+        }
+    },
 });
 function isCnpj(cnpj) {
 	var numeros, digitos, soma, i, resultado, pos, tamanho, digitos_iguais;
