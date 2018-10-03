@@ -1,0 +1,8 @@
+{
+   "assets": [{
+      "version" : "1.0",
+      "locations": {
+         "jar": "assets/js/datatables.simple.bs4.config.js"
+      }
+   }]
+}

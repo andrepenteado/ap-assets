@@ -3,23 +3,23 @@
   "dependencies" : ["jquery"],
   "assets":[
   {
-      "name" : "bootstrap4",
-      "version" : "4.1.3",
+      "version" : "1.14.3",
       "locations":{
-        "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        "remote":"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       }
   },
   {
       "name" : "bootstrap4",
       "version" : "4.1.3",
       "locations":{
-        "remote":"https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        "remote":"https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
       }
   },
   {
-      "version" : "1.12.9",
+      "name" : "bootstrap4",
+      "version" : "4.1.3",
       "locations":{
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        "remote": "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
       }
   }
   ]

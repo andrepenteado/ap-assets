@@ -21,10 +21,10 @@ $.validator.setDefaults({
 /* Versão com bootstrap 4 */
 $.validator.setDefaults({
     highlight: function(element) {
-        $(element).closest('form').addClass('was-validated');
+        $(element).closest('.form-control').addClass('is-invalid');
     },
     unhighlight: function(element) {
-        $(element).closest('form').removeClass('was-validated');
+        $(element).closest('.form-control').removeClass('is-invalid');
     },
     errorElement: 'small',
     errorClass: 'invalid-feedback',
