@@ -23,7 +23,7 @@ $.extend( true, oTable_GridDatatable_params, {
         {
             extend: 'excel', 
             title: 'dados-tabela',
-            className: 'btn btn-outline-secondary btn-sm',
+            className: 'btn btn-light border',
             text: '<i class="fas fa-download" title="Download"></i>',
             exportOptions: {
                 columns: ':visible'
@@ -31,7 +31,7 @@ $.extend( true, oTable_GridDatatable_params, {
         }, 
         {
             extend: 'print',
-            className: 'btn btn-outline-secondary btn-sm',
+            className: 'btn btn-light border',
             text: '<i class="fas fa-print" title="Imprimir"></i>',
             exportOptions: {
                 columns: ':visible'
@@ -39,7 +39,7 @@ $.extend( true, oTable_GridDatatable_params, {
         },
         {
             extend: 'colvis',
-            className: 'btn btn-outline-secondary btn-sm',
+            className: 'btn btn-light border',
             text: '<i class="fas fa-eye" title="Selecionar Colunas"></i>'
         }
     ],
