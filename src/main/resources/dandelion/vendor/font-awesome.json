@@ -1,0 +1,11 @@
+{
+  "bundle":"font-awesome",
+  "assets":[
+    {
+      "version" : "5.7.2",
+      "locations":{
+        "webjar": "font-awesome/5.7.2/css/all.min.css"
+      }
+    }
+  ]
+}

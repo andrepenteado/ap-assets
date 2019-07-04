@@ -1,5 +1,9 @@
 <web-fragment>
 
+   <welcome-file-list>
+      <welcome-file>/index.jsp</welcome-file>
+   </welcome-file-list>
+
    <!-- Dandelion filter definition and mapping -->
    <filter>
       <filter-name>dandelionFilter</filter-name>

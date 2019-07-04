@@ -3,18 +3,18 @@
   "dependencies": [ "jquery" ],
   "assets": [
     {
-      "version" : "1.17.0",
+      "version" : "1.18.0",
       "dom":"head",
       "locations": {
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"
+        "webjar": "jquery.validate.min.js"
       }
     },
     {
-      "version" : "1.17.0",
+      "version" : "1.18.0",
       "dom":"head",
       "type" : "js",
       "locations": {
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"
+        "webjar": "additional-methods.min.js"
       }
     },
     {

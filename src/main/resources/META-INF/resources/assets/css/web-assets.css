@@ -1,0 +1,30 @@
+.border-left-success {
+  border-left: .25rem solid #1cc88a!important;
+}
+.border-left-warning {
+  border-left: .25rem solid #ffc107!important;
+}
+.border-left-info {
+  border-left: .25rem solid #17a2b8!important;
+}
+.border-left-primary {
+  border-left: .25rem solid #007bff!important
+}
+.border-left-danger {
+  border-left: .25rem solid #dc3545!important;
+}
+.border-left-light {
+  border-left: .25rem solid #f8f9fa!important;
+}
+.border-left-secondary {
+  border-left: .25rem solid #6c757d!important;
+}
+.border-left-success {
+  border-left: .25rem solid #28a745!important;
+}
+.border-left-dark {
+  border-left: .25rem solid #343a40!important;
+}
+.text-gray {
+  color: #dddfeb!important;
+}

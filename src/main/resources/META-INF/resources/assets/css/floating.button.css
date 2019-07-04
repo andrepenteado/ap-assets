@@ -4,13 +4,13 @@
  1a opção: Único botão
 
  <a href="#" class="float-button">
-   <i class="fas fa-share fa-lg"></i>X
+   <i class="fas fa-share fa-lg"></i>
  </a>
 
  2o opção: Abre menu com vários botoões
 
  <a href="#" class="float-button">
-   <i class="fas fa-share fa-lg"></i>X
+   <i class="fas fa-share fa-lg"></i>
  </a>
  <ul class="float-menu">
    <li>
@@ -32,7 +32,7 @@
   height: 60px;
   bottom: 20px;
   right: 20px;
-  background-color: #337ab7;
+  background-color: #007bff;
   color: #FFF;
   border-radius: 50px;
   text-align: center;
@@ -78,7 +78,7 @@
 }
 
 .float-menu li a {
-  background-color: #337ab7;
+  background-color: #007bff;
   color: #FFF;
   border-radius: 50px;
   text-align: center;

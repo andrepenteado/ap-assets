@@ -4,9 +4,9 @@
     {
       "name" : "jquery",
       "dom":"head",
-      "version" : "3.3.1",
+      "version" : "3.3.1-1",
       "locations":{
-        "remote":"https://code.jquery.com/jquery-3.3.1.min.js"
+        "webjar": "3.3.1-1/jquery.min.js"
       }
     }
   ]

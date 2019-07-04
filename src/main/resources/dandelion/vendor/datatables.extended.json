@@ -3,64 +3,70 @@
   "dependencies" : ["datatables.simple"],
   "assets":[
     {
-        "version" : "1.2.4",
+        "version" : "1.5.4",
         "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"
+          "webjar": "datatables-buttons/1.5.6/js/dataTables.buttons.min.js"
         }
     },
     {
-        "version" : "1.2.4",
+        "version" : "1.5.4",
         "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css"
+          "webjar": "datatables-buttons/1.5.6/js/buttons.bootstrap4.js"
         }
     },
     {
-        "version" : "1.2.4",
+        "version" : "1.5.4",
         "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/js/buttons.bootstrap.min.js"
+          "webjar": "datatables-buttons/1.5.6/css/buttons.bootstrap4.min.css"
         }
     },
     {
-        "version" : "1.2.4",
+        "version" : "1.5.4",
         "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/css/buttons.bootstrap.min.css"
+          "webjar": "datatables-buttons/1.5.6/js/buttons.html5.min.js"
         }
     },
     {
-        "version" : "2.5.0",
+        "version" : "1.5.6",
         "locations":{
-          "remote":"https://cdnjs.cloudflare.com/ajax/libs/jszip/2.5.0/jszip.min.js"
+          "webjar": "datatables-buttons/1.5.6/js/buttons.print.min.js"
         }
     },
     {
-        "version" : "0.1.20",
+        "version" : "1.5.6",
         "locations":{
-          "remote":"https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.20/pdfmake.min.js"
+          "webjar": "datatables-buttons/1.5.6/js/buttons.colVis.min.js"
         }
     },
     {
-        "version" : "0.1.20",
-        "locations":{
-          "remote":"https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.20/vfs_fonts.js"
-        }
+      "version" : "1.5.1",
+      "locations":{
+        "webjar": "datatables-colreorder/1.5.1/js/dataTables.colReorder.js"
+      }
     },
     {
-        "version" : "1.2.4",
-        "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/js/buttons.html5.min.js"
-        }
+      "version" : "1.5.1",
+      "locations":{
+        "remote": "https://cdn.datatables.net/colreorder/1.5.1/css/colReorder.bootstrap4.min.css"
+      }
     },
     {
-        "version" : "1.2.4",
-        "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/js/buttons.print.min.js"
-        }
+      "version" : "3.1.0",
+      "locations":{
+        "webjar": "jszip/3.1.0/jszip.min.js"
+      }
     },
     {
-        "version" : "1.2.4",
-        "locations":{
-          "remote":"https://cdn.datatables.net/buttons/1.2.4/js/buttons.colVis.min.js"
-        }
+      "version" : "0.1.36",
+      "locations":{
+        "webjar": "pdfmake/0.1.36/build/pdfmake.min.js"
+      }
+    },
+    {
+      "version" : "0.1.36",
+      "locations":{
+        "webjar": "pdfmake/0.1.36/build/vfs_fonts.js"
+      }
     }
   ]
 }

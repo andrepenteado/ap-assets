@@ -1,0 +1,24 @@
+{
+  "bundle": "jquery.datetimepicker",
+  "dependencies": [ "bootstrap" ],
+  "assets": [
+    {
+      "version" : "2.22.2",
+      "locations":{
+        "webjar": "moment-with-locales.min.js"
+      }
+    },
+    {
+      "version" : "5.1.2",
+      "locations": {
+        "webjar": "tempusdominus-bootstrap-4.min.js"
+      }
+    },
+    {
+      "version" : "5.1.2",
+      "locations": {
+        "webjar": "tempusdominus-bootstrap-4.min.css"
+      }
+    }
+  ]
+}

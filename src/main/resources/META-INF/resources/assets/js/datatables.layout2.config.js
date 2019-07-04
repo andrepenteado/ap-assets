@@ -1,4 +1,5 @@
-$.extend( true, oTable_GridDatatable_params, { 
+$.extend( true, oTable_GridDatatable_params, {
+    lengthMenu : [[15], ["15"]],
     responsive: {
         details: {
             display: $.fn.dataTable.Responsive.display.modal( {
@@ -13,8 +14,14 @@ $.extend( true, oTable_GridDatatable_params, {
             })
         }
     },
-    dom: "<'row'" + 
-            "<'col-xs-12 col-sm-12 col-md-12'rt>" + 
+    dom: "<'row w-100'" +
+            "<'col-12'f>" +
+         ">" +
+         "<'row'" +
+            "<'col-12 col-sm-12 col-md-12'rt>" +
+         ">" +
+         "<'row'" +
+            "<'col-12'p>" +
          ">"
     }
 );

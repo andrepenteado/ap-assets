@@ -5,13 +5,13 @@
     {
       "version" : "3.0.2",
       "locations":{
-        "remote":"https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"
+        "webjar": "jquery.maskMoney.min.js"
       }
     },
     {
       "version" : "1.4.1",
       "locations": {
-        "remote": "https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.min.js"
+        "webjar": "jquery.maskedinput.min.js"
       }
     }
   ]

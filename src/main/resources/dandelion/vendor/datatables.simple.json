@@ -4,45 +4,52 @@
   "assets": [
    {
        "name": "datatables",
-       "version" : "1.10.16",
+       "version" : "1.10.19",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"
+         "webjar": "datatables/1.10.19/js/jquery.dataTables.min.js"
        }
    },
    {
        "name": "datatables",
-       "version" : "1.10.16",
+       "version" : "1.10.19",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css"
+         "webjar": "datatables/1.10.19/css/jquery.dataTables.min.css"
        }
    },
    {
-       "name":"bootstrap3-theme-js",
-       "version" : "1.10.16",
+       "name":"datatables-bootstrap",
+       "version" : "1.10.19",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"
+         "webjar": "datatables/1.10.19/js/dataTables.bootstrap4.min.js"
        }
    },
    {
-       "name":"bootstrap3-theme-css",
-       "version" : "1.10.16",
+       "name":"datatables-bootstrap",
+       "version" : "1.10.19",
        "locations":{
-         "remote":"https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css"
+         "webjar": "datatables/1.10.19/css/dataTables.bootstrap4.min.css"
        }
    },
    {
-       "name": "datatables-responsive-bs3",
-       "version" : "2.2.1",
+       "name": "datatables.net-responsive",
+       "version" : "2.2.3",
        "locations":{
-         "remote":"https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"
+         "webjar":"datatables.net-responsive/js/dataTables.responsive.min.js"
        }
    },
    {
-       "name": "datatables-responsive-bs3",
-       "version" : "2.2.1",
-       "locations":{
-         "remote":"https://cdn.datatables.net/responsive/2.2.1/css/responsive.bootstrap.min.css"
-       }
-   }
+      "name": "datatables-responsive-bootstrap",
+      "version" : "2.2.3",
+      "locations":{
+        "webjar": "datatables.net-responsive-bs4/2.2.3/css/responsive.bootstrap4.min.css"
+      }
+    },
+    {
+      "name": "datatables-responsive-bootstrap",
+      "version" : "2.2.3",
+      "locations":{
+        "webjar": "datatables.net-responsive-bs4/2.2.3/js/responsive.bootstrap4.min.js"
+      }
+    }
    ]
 }

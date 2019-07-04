@@ -1,0 +1,9 @@
+{
+   "assets": [{
+      "version" : "1.0",
+      "locations": {
+         "webapp": "assets/js/datatables.layout3.config.js",
+         "jar": "assets/js/datatables.layout3.config.js"
+      }
+   }]
+}
