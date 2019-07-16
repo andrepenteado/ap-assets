@@ -2,25 +2,45 @@
 
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="header" content="Acesso Negado" />
   <title>Acesso Negado</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></link>
-</head>
+  <link href="../../../assets/css/web-assets.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"></link>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <body>
 
-  <div style="background-color: #337ab7; overflow:hidden; position: fixed; top: 0; left: 0; width: 100%">
-    <p style="float: left; font-size: 24px; font-weight: bold; color: #fff; margin-top: 10px; height: 31px;">&nbsp;&nbsp;acesso negado</p>
-  </div>
+<!-- Invísivel em telas pequenas -->
+<div class="d-none d-sm-block">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb fixed-top" style="margin-top: 56px">
+      <li class="breadcrumb-item active" aria-current="page">Acesso Negado</li>
+    </ol>
+  </nav>
+</div>
 
-  <div style="text-align: center; margin-top: 100px;">
-    <i class="fa fa-lock fa-4x"></i>
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top mb-4">
+  <a class="navbar-brand" href="#"><strong>Portal de Sistemas</strong></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+</nav>
+
+<main role="main" class="container">
+  <div class="d-sm-none" style="margin-top: 70px;"></div>
+  <div class="d-none d-sm-block" style="margin-top: 120px;"></div>
+  <div class="text-center">
+    <i class="fas fa-lock fa-4x"></i>
     <h2>Acesso Negado</h2>
     <p>Voc&ecirc; foi desconectado ou n&atilde;o tem privil&eacute;gios suficientes para completar a opera&ccedil;&atilde;o</p>
     <br/>
-    <a href="<%=request.getContextPath()%>/" class="btn btn-primary"><span class="glyphicon glyphicon-repeat"></span> P&aacute;gina Inicial</a>
+    <a href="<%=request.getContextPath()%>/" class="btn btn-primary"><i class="fas fa-home"></i> Página Inicial</a>
   </div>
+</main> <!-- /container -->
+
+<br><br>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
 </body>
 </html>
