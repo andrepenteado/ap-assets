@@ -1,5 +1,5 @@
 
-package com.gitlab.andrepenteado.layout;
+package com.github.andrepenteado.layout;
 
 import java.io.IOException;
 
